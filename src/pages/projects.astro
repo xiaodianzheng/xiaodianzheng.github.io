@@ -5,47 +5,46 @@ import HorizontalCard from "../components/HorizontalCard.astro";
 
 <BaseLayout title = "Projects">
   <div>
-    <div class="text-3xl w-full font-bold mb-5">Projects Header</div>
+    <div class="text-3xl w-full font-bold mb-5">个人项目</div>
   </div>
 
   <HorizontalCard
-    title="Demo Project 1"
-    img="/post_img.webp"
-    desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    title="深度学习电影推荐系统"
+    img="电影推荐系统.webp"
+    desc="开发了一个包含数据部分、模型部分和前端部分的完整的工业级推荐系统。实现了多种传统推荐模型和深度学习推荐模型，包括Item2Vec、Wide&Deep、NeuralCF、DeepFM等。"
     url="#"
-    badge="NEW"
   />
-  <div class="divider my-0"></div>
+  <!-- <div class="divider my-0"></div>
   <HorizontalCard
     title="Demo Project 2"
     img="/post_img.webp"
     desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     url="#"
-  />
+    badge="FOSS" or "new"
+  /> -->
 
   <div>
-    <div class="text-3xl w-full font-bold mb-5 mt-10">Projects Header</div>
+    <div class="text-3xl w-full font-bold mb-5 mt-10">研究项目</div>
   </div>
 
   <HorizontalCard
-    title="Demo Project 3"
-    img="/post_img.webp"
-    desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    url="#"
-    badge="FOSS"
+    title="基于类增量学习的视频动作理解"
+    img="icremental_learning.jpg"
+    desc="研究目标是引入类增量学习技术用于解决视频动作识别任务。研究中复现了针对图像分类的SPB模型（Striking a Balance between Stability and Plasticity for Class Incremental Learning），并在其基础上建立了适用于视频任务的增量学习模型。"
+    url="https://www.jianguoyun.com/p/DciHAGAQ06aMCxi1v_cEIAA"
   />
   <div class="divider my-0"></div>
   <HorizontalCard
-    title="Demo Project 4"
-    img="/post_img.webp"
-    desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    url="#"
+    title="基于生成对抗网络的文本生成图像研究"
+    img="text2image.jpg"
+    desc="实现了自修正生成对抗网络模型（Self-Correction GAN）用于文本生成图像任务；设计并实现评价指标语义对象准确性，用于评估生成图像是否与文本匹配"
+    url="https://www.jianguoyun.com/p/Dc6tjiwQ06aMCxirv_cEIAA"
   />
-  <div class="divider my-0"></div>
+  <!-- <div class="divider my-0"></div>
   <HorizontalCard
     title="Demo Project 5"
     img="/post_img.webp"
     desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     url="#"
-  />
+  /> -->
 </BaseLayout>
