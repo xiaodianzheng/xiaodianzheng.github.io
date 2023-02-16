@@ -50,18 +50,6 @@ import TimeLineElement from "../components/cv/TimeLine.astro";
       desc="研究目标是引入类增量学习技术用于解决视频动作识别任务。研究中复现了针对图像分类的SPB模型（Striking a Balance between Stability and Plasticity for Class Incremental Learning），结合视频动作识别模型TSM（Temporal-shift-module），成功使用增量学习技术训练视频动作识别模型，模型在增量阶段的准确率相比微调模型平均提升了4.6倍。"
     />
   </div>
-
-  <div class="mb-5">
-    <div class="text-3xl w-full font-bold">项目经历</div>
-  </div>
-
-  <div class="time-line-container mb-10">
-    <TimeLineElement
-      title="深度学习电影推荐系统"
-      subtitle="个人项目"
-      desc="实现了一个包含数据部分、模型部分和前端部分的完整的工业级推荐系统。其中数据部分运用了Spark、Flink和Redis技术，分别进行离线数据处理、准实时处理和保存特征；模型部分使用了Spark MLib和TensorFlow分别训练传统推荐模型和深度学习推荐模型，实现了Item2Vec、Wide&Deep、NeuralCF、DeepFM等多个模型；最后运用HTML和JavaScript搭建了简单的前端界面。"
-    />
-  </div>
   
   <div class="mb-5">
     <div class="text-3xl w-full font-bold">研究经历</div>
@@ -77,6 +65,18 @@ import TimeLineElement from "../components/cv/TimeLine.astro";
       title="基于生成对抗网络的文本生成图像技术研究"
       subtitle="2019 年 9 月 至 2020 年 5 月"
       desc="实现自修正生成对抗网络模型（Self-Correction GAN）：之前的模型存在依赖初始图像的生成质量和不同阶段采用相同词表示的两点缺陷，通过引入键值结构记忆网络，使模型能够在层叠式生成图像的过程中自修正。模型在多项定量指标中达到或超越了最先进水平；设计并实现评价指标语义对象准确性：之前的指标无法评价图像与文本是否匹配，通过引入YOLOv3目标检测器，检测生成图像是否包含文本所对应的标签，分别计算类平均准确率和总体平均准确率。"
+    />
+  </div>
+
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">项目经历</div>
+  </div>
+
+  <div class="time-line-container mb-10">
+    <TimeLineElement
+      title="深度学习电影推荐系统"
+      subtitle="个人项目"
+      desc="实现了一个包含数据部分、模型部分和前端部分的完整的工业级推荐系统。其中数据部分运用了Spark、Flink和Redis技术，分别进行离线数据处理、准实时处理和保存特征；模型部分使用了Spark MLib和TensorFlow分别训练传统推荐模型和深度学习推荐模型，实现了Item2Vec、Wide&Deep、NeuralCF、DeepFM等多个模型；最后运用HTML和JavaScript搭建了简单的前端界面。"
     />
   </div>
 
